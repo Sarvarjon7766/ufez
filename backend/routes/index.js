@@ -1,0 +1,18 @@
+const leaderrouter = require('./leader.route')
+const servicerouter = require('./service.route')
+const relationrouter = require('./international.relation.router')
+const charterrouter = require('./charter.router')
+const bannerrouter = require('./banner.router')
+const taskrouter = require('./task.router')
+const egovernmentrouter = require('./egovernment.router')
+const structurerouter = require('./sturucture.router')
+const rekvizitrouter = require('./rekvizit.router')
+const employerrouter = require('./employer.router')
+const landarearouter = require('./landarea.router')
+const newsrouter = require('./news.router')
+const askedrouter = require('./frequensy.asked.router')
+const applicationrouter = require('./application.router')
+const projectrouter = require('./project.router')
+const userrouter = require('./user.router')
+
+module.exports = { leaderrouter, servicerouter, relationrouter, charterrouter, bannerrouter, taskrouter, egovernmentrouter, structurerouter, rekvizitrouter, employerrouter, landarearouter, newsrouter, askedrouter, applicationrouter, projectrouter, userrouter }
